@@ -20,10 +20,10 @@ Este projeto é uma aplicação desenvolvida em **Streamlit** que utiliza técni
 - Pandas
 - Numpy
 - Scikit-learn
-- FastText (ou outro modelo de embeddings utilizado)
+- XLNET 
 - Transformers (Hugging Face)
 - TensorFlow e Keras
-- PyTorch (para alguns modelos)
+- PyTorch 
 - huggingface_hub
 
 ---
