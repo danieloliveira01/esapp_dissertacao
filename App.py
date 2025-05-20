@@ -95,7 +95,7 @@ def estimar_classificacao_deep_learning(lang, texto, modelo_rf, tokenizer, model
     if story_point == 0:
          estimative = "Facil"
     elif story_point == 1:
-         estimative = "Médio"
+         estimative = "Medio"
     else:
          estimative = "Dificil"
 
@@ -323,10 +323,15 @@ elif option == "Carregar Arquivo CSV":
                         st.session_state.df_uploaded = df_uploaded.copy()
                         st.session_state.df_uploaded['estimativa'] = estimativas
                     if  "Classificacao" in option_model :
-                        
+
                         tokenizer, model_xlnet = carregar_xlnet_modelo()
+                        #st.session_state.estimativa, st.session_state.acuracia = estimar_ponto_por_historia_random_forest(lang, user_input, modelo, tokenizer, model_xlnet)
+                        #st.session_state.estimativa, st.session_state.acuracia = estimar_classificacao_deep_learning(lang, user_input, modelo, tokenizer, model_xlnet)
+                        
+                        
+                        #tokenizer, model_xlnet = carregar_xlnet_modelo()
                         #resultados = [estimar_ponto_por_historia_random_forest(lang, historia, modelo, tokenizer, model_xlnet) for historia in historias]
-                        resultados = [estimar_ponto_por_historia_deep(historia, modelo, tokenizer, MAX_SEQUENCE_LENGTH) for historia in historias]
+                        resultados = [estimar_classificacao_deep_learning(lang, historia, modelo, tokenizer, model_xlnet) for historia in historias]
                         estimativas, acuracias = zip(*resultados)
                         print("estimativa:", estimativas)
 
@@ -352,7 +357,15 @@ elif option == "Carregar Arquivo CSV":
             correcoes = []
         correcoes_estimativas = []
         for i in range(len(st.session_state.df_uploaded)):
-            x = st.number_input(f"Correção para ID {st.session_state.df_uploaded.iloc[i, 0]} (Estimativa Original: {st.session_state.df_uploaded.iloc[i, -1]}):", min_value=0, value=int(st.session_state.correcoes[i]), key=f"correcao_{i}")
+            if "Classificacao" in option_model:
+                 x = st.selectbox(
+                    f"Correção para ID {st.session_state.df_uploaded.iloc[i, 0]} (Estimativa Original: {st.session_state.df_uploaded.iloc[i, -1]}):",
+                    options=["Facil", "Medio", "Dificil"],
+                    index=["Facil", "Medio", "Dificil"].index(st.session_state.correcoes[i]) if st.session_state.correcoes[i] in ["Facil", "Medio", "Dificil"] else 0,
+                    key=f"correcao_{i}"
+                )
+            else:
+                x = st.number_input(f"Correção para ID {st.session_state.df_uploaded.iloc[i, 0]} (Estimativa Original: {st.session_state.df_uploaded.iloc[i, -1]}):", min_value=0, value=int(st.session_state.correcoes[i]), key=f"correcao_{i}")
             st.session_state.correcoes[i] = x
         # Atualizando o DataFrame com as correções
         st.session_state.df_uploaded['Correção'] = st.session_state.correcoes
