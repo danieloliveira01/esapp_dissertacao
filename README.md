@@ -1,3 +1,4 @@
+
 # Estimativa Automática de Histórias de Usuário 📊
 
 Este projeto é uma aplicação desenvolvida em **Streamlit** que utiliza técnicas de **Machine Learning (ML)** e **Processamento de Linguagem Natural (PLN)** para estimar o esforço necessário para requisitos do tipo *histórias de usuário*.
@@ -34,9 +35,42 @@ Este projeto é uma aplicação desenvolvida em **Streamlit** que utiliza técni
 
 Certifique-se de ter instalado:
 
-- Python 3.8 ou superior
-- `pip`
-- Git (opcional, para clonar o repositório)
+- **Python 3.8 ou superior**
+- **pip** (gerenciador de pacotes do Python)
+- **Git** (opcional, para clonar o repositório)
+
+#### 🔧 Como instalar o Python e o pip
+
+1. **Acesse o site oficial do Python:**  
+   👉 https://www.python.org/downloads/
+
+2. **Baixe o instalador** adequado para seu sistema operacional (Windows, macOS ou Linux).
+
+3. **Durante a instalação no Windows**, marque a opção:  
+   ```
+   Add Python to PATH
+   ```  
+   e selecione a opção **"Install Now"**.
+
+4. O `pip` já será instalado automaticamente junto com o Python a partir da versão 3.4+. Você pode verificar se tudo foi instalado corretamente com os comandos:
+
+   ```bash
+   python --version
+   pip --version
+   ```
+
+   Se estiver usando macOS ou Linux, você pode instalar via terminal:
+
+   ```bash
+   sudo apt update
+   sudo apt install python3 python3-pip   # (Debian/Ubuntu)
+   ```
+
+   ou
+
+   ```bash
+   brew install python   # (macOS com Homebrew)
+   ```
 
 ---
 
@@ -99,7 +133,7 @@ A aplicação será aberta automaticamente em seu navegador padrão. Caso isso n
 ```
 ├── App.py                     # Arquivo principal da aplicação Streamlit
 ├── data/                      # Diretório de datasets
-├── model/                    # Diretório de arquivos utilitarios aos modelos
+├── model/                     # Diretório de arquivos utilitários aos modelos
 ├── requirements.txt           # Lista de dependências do Python
 ├── run.sh                     # Script para execução automatizada
 ├── README.md                  # Este arquivo
