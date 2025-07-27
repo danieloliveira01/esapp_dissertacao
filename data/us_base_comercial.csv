@@ -1,0 +1,128 @@
+ID,Título,História,Prioridade,Campo personalizado (Story Points)
+11483,História,"Eu, como desenvolvedor, desejo criar middleware para logs de auditoria de ações dos usuários",Medium,3
+11482,História,"Eu, como desenvolvedor, desejo Instalar o Sentry.io no backend para monitorar erros e exceptions das requisições",Medium,5
+11262,História,Excluir curso/trilha,Medium,1
+11261,História,Alterar funções associadas à trilha,Medium,1
+11259,História,Publicar alterações,Medium,1
+11258,História,Visualizar página de curso já cadastrado,Medium,1
+11256,História,"Eu, como Gestor MEC, quero importar curso na plataforma por meio de arquivo csv, para incluir novo curso",Medium,3
+11255,História,"Eu, como Gestor MEC, quero exportar o template de criação de conteúdo da plataforma, para criar cursos de maneira offline",Medium,3
+11211,História,Adicionar quiz,Medium,2
+11209,História,Editar recurso,Medium,3
+11208,História,Adicionar recurso,Medium,5
+11207,História,Reordenar e excluir tópico,Medium,3
+11206,História,Criar e configurar módulo,Medium,5
+11205,História,Alterar ícone do curso,Medium,2
+11145,História,Sobre,Medium,3
+11107,História,Contato,Medium,3
+11097,História,Refactor EAD Cursos e Trilhas,High,5
+11096,História,Proteção de rotas no front com base no tipo de usuário ,Medium,5
+11095,História,Dúvidas frequentes - excluir,Medium,1
+11094,História,Dúvidas frequentes - editar,Medium,2
+11093,História,Dúvidas frequentes - adicionar uma nova,Medium,2
+11092,História,Dúvidas frequentes - busca - filtro,Medium,1
+11091,História,Dúvidas frequentes - busca,Medium,1
+11090,História,Dúvidas frequentes - expandir,High,2
+11088,História,Instrumento normativo - excluir,Medium,1
+11087,História,Instrumento normativo - editar,Medium,2
+11086,História,Instrumento normativo - adicionar um novo,Medium,2
+11085,História,Instrumentos normativos - busca - filtro,Medium,1
+11084,História,Instrumentos normativos - Busca,Medium,1
+11083,História,Instrumentos normativos,Medium,1
+11082,História,Base de conhecimento - Busca,Medium,1
+11047,História,Base de conhecimento,Medium,1
+11045,História,Sucesso - configuração via Gov,Medium,1
+11044,História,Telefone/preenchido (via Gov),Medium,1
+11043,História,Telefone/Não preenchido (via gov),Medium,1
+11038,História,Esqueci minha senha,Medium,1
+11037,História,Senha/preenchido,Medium,1
+11036,História,Senha/não preenchido,Medium,1
+11035,História,Sucesso,Medium,1
+11034,História,Configurar/preenchido,Medium,1
+11033,História,Configurar/Não preenchido,Medium,1
+11032,História,Início,Medium,1
+10975,História,"Eu, como aluno, desejo visualizar uma interação com personagem",Medium,8
+10967,História,"Eu, como Gestor MEC, desejo adicionar uma interação com avatar no conteúdo",Medium,8
+10518,História,"Eu, como plataforma, desejo salvar a reordenação de itens de uma trilha, curso ou módulo",Medium,13
+10515,História,"Eu, como Gestor MEC, desejo salvar alterações realizadas",Medium,8
+10475,História,"Eu, como gestor MEC, desejo excluir uma ""Norma""",Medium,1
+10474,História,"Eu, como Gestor MEC, desejo editar uma ""Norma""",Medium,3
+10473,História,"Eu, como Gestor MEC, desejo incluir uma nova “Norma”",Medium,5
+10470,História,"Eu, como Gestor MEC, desejo remover os filtros aplicados as “Normas”",Medium,1
+10469,História,"Eu, como Gestor MEC, desejo aplicar um filtro as ""Normas”",Medium,1
+10468,História,"Eu, como Gestor MEC, desejo realizar uma busca de Normas",Medium,3
+10467,História,"Eu, como plataforma, desejo exibir “Normas”",Medium,3
+10466,História,"Eu, como Gestor MEC desejo acessar as Normas",Medium,2
+10464,História,"Eu, como gestor MEC, desejo excluir uma ""dúvida frequente”",Medium,1
+10463,História,"Eu, como Gestor MEC, desejo editar uma ""dúvida frequente”",Medium,2
+10462,História,"Eu, como Gestor MEC, desejo incluir uma nova ""dúvida frequente”",Medium,2
+10461,História,"Eu, como Gestor MEC, desejo remover os filtros aplicados em “Dúvidas frequentes”",Medium,1
+10460,História,"Eu, como Gestor MEC, desejo aplicar um filtro em ""Dúvidas frequentes”",Medium,5
+10459,História,"Eu, como Gestor MEC, desejo expandir/retrair uma ""dúvida frequente”",Medium,2
+10458,História,"Eu, como Gestor MEC, desejo realizar uma busca dentro de Dúvidas Frequentes",Medium,2
+10457,História,"Eu, como plataforma, desejo exibir uma ""Dúvida Frequente”",Medium,2
+10456,História,"Eu, como Gestor MEC desejo acessar as Dúvidas Frequentes",Medium,2
+10453,História,"Eu, como Gestor MEC ou avaliador (aluno), desejo visualizar todos os resultados da busca para uma categoria",Medium,3
+10452,História,"Eu, como Gestor MEC ou avaliador (aluno), desejo realizar uma busca na Base de Conhecimento",Medium,5
+10451,História,"Eu, como Gestor MEC ou avaliador (aluno), desejo acessar a Base de Conhecimento",Medium,3
+10407,História,"Eu, como plataforma, desejo exibir a tela resumo da simulação",Medium,2
+10406,História,"Eu, como aluno, desejo continuar uma simulação",Medium,13
+10405,História,"Eu, como aluno, desejo sair de uma simulação",Medium,8
+10404,História,"Eu, como aluno, desejo realizar uma simulação novamente",Medium,8
+10403,História,"Eu, como aluno, desejo visualizar panorama de respostas (resumo)",Medium,8
+10402,História,"Eu, como aluno, desejo visualizar desfecho ideal",Medium,5
+10401,História,"Eu, como aluno, desejo visualizar desfecho ruim",Medium,13
+10400,História,"Eu, como plataforma, desejo exibir o feedback da resposta selecionada",Medium,13
+10399,História,"Eu, como plataforma, desejo analisar a resposta da simulação do usuário",Medium,13
+10398,História,"Eu, como aluno, desejo responder uma questão da simulação",Medium,13
+10397,História,"Eu, como aluno, desejo visualizar um anexo de uma cena de simulação",High,13
+10396,História,"Eu, como plataforma, desejo exibir uma cena de simulação",Medium,13
+10395,História,"Eu, como plataforma, desejo apresentar uma simulação",Medium,2
+10203,História,"Eu, como usuário, desejo iniciar a reprodução de um vídeo",Medium,5
+10196,História,"Eu, como usuário, desejo iniciar a reprodução do áudio",Medium,5
+10156,História,"Eu, como Gestor MEC, desejo alterar a ordem de exibição das cenas",Medium,5
+10155,História,"Eu, como Gestor MEC, desejo remover uma cena da simulação",Medium,2
+10154,História,"Eu, como Gestor MEC, desejo cadastrar uma nova cena",Medium,21
+10153,História,"Eu, como Gestor MEC, desejo selecionar um fundo de cena",Medium,8
+10152,História,"Eu, como gestor MEC, desejo remover um arquivo anexado à simulação",Medium,3
+10151,História,"Eu, como gestor MEC, desejo anexar um arquivo à simulação",Medium,8
+10150,História,"Eu, como gestor MEC, desejo cadastrar mais alternativas de resposta",Medium,13
+10149,História,"Eu, como Gestor MEC, desejo selecionar um avatar para as opções de resposta",Medium,5
+10148,História,"Eu, como Gestor MEC, desejo selecionar o avatar para a cena",Medium,13
+10147,História,"Eu, como Gestor MEC, desejo cadastrar uma cena para a simulação",Medium,13
+10146,História,"Eu, como Gestor MEC, desejo cadastrar uma simulação",Medium,1
+10136,História,"Eu, como Gestor MEC, desejo associar uma função à trilha",Medium,5
+10088,História,"Eu, como aluno, desejo verificar minhas conquistas no PNLD Formação",Medium,5
+10086,História,"Eu, como Usuário, quero editar os dados de perfil para atualizar minhas informações",High,8
+10085,História,"Eu, como usuário, desejo redefinir senha do meu perfil",High,8
+10082,História,"Eu, como plataforma, desejo verificar o resultado de uma segunda tentativa de um quiz respondido pelo aluno",Medium,5
+10081,História,"Eu, como aluno, desejo realizar uma segunda tentativa de responder um quiz",Medium,5
+10080,História,"Eu, como plataforma, desejo verificar o resultado de um quiz respondido pelo aluno",Medium,8
+10079,História,"Eu, como aluno, desejo realizar um quiz",Medium,13
+10078,História,"Eu, como aluno, desejo interagir com uma imagem",Medium,0
+10077,História,"Eu, como aluno, desejo interagir com um link",Medium,5
+10076,História,"Eu, como plataforma, desejo bloquear os cursos ainda não disponíveis para o usuário ",Highest,5
+10074,História,"Eu, como gestor MEC, desejo inserir um recurso (vídeo, imagem, áudio)",Medium,21
+10064,História,"Eu, como usuário, desejo completar meu cadastro ao realizar meu primeiro acesso  via gov.br ou via PNLD Formação",Medium,10
+10061,História,"Eu, como plataforma, desejo validar CPF informado pelo usuário via Gov.br ou via PNLD Formação (plataforma)",Medium,4
+10054,História,"Eu, como Gestor MEC (Admin), desejo editar as informações de um usuário",Medium,8
+10052,História,"Eu, como Gestor MEC (Admin), desejo enviar ou reenviar convite para um usuário já inserido no banco de dados da plataforma",Medium,5
+10050,História,"Eu, como Gestor MEC (Admin), desejo realizar a filtragem dos Usuários para Perfil, Função e Objeto",Medium,3
+10049,História,"Eu, como Gestor MEC (Admin), desejo realizar a busca por um usuário",Medium,2
+10047,História,"Eu, como plataforma, desejo, na aba de Usuários Externos, exibir:",Medium,7
+10046,História,"Eu, como plataforma, desejo na aba de Usuários do PNLD Avaliação, exibir:",Medium,7
+10044,História,"Eu, como plataforma, desejo exibir um tópico do curso",High,20
+10043,História,"Eu, como aluno, desejo acessar um módulo do curso",High,20
+10035,História,"Eu, como plataforma, desejo verificar o tipo de acesso do usuário via Gov.br",Medium,2
+10029,História,"Eu, como gestor MEC (Admin), desejo convidar usuários do PNLD - Avaliação para acessar a plataforma",Medium,8
+10026,História,"Eu, como plataforma, desejo importar os dados dos usuários do PNLD avaliação",Medium,13
+10024,História,"Eu, como Plataforma, desejo enviar a mensagem de contato",Medium,10
+10023,História,"Eu, como Usuário, desejo remover arquivos anexados em minha mensagem de contato",Medium,10
+10022,História,"Eu, como Usuário, desejo anexar arquivos a minha mensagem de contato",Medium,12
+10020,História,"Eu, como Usuário, desejo acessar a página de “Contato”",Medium,3
+10016,História,"Eu, como gestor MEC, desejo criar um quiz",Medium,13
+10015,História,"Eu, como Gestor MEC, desejo criar conteúdo para um curso",Medium,1
+10011,História,"Eu, como Gestor MEC, desejo acessar a aba de Cursos",Medium,21
+10010,História,"Eu, como Gestor MEC, desejo visualizar/expandir uma trilha",Medium,21
+10009,História,"Eu, como Gestor MEC, desejo criar uma trilha",Medium,55
+10008,História,"Eu, como Gestor MEC, desejo acessar a página de trilhas",Medium,21

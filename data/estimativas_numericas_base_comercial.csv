@@ -1,0 +1,128 @@
+﻿,ID,Título,História,estimativa
+0,11483,História,"Eu, como desenvolvedor, desejo criar middleware para logs de auditoria de ações dos usuários",7.040393829345703
+1,11482,História,"Eu, como desenvolvedor, desejo Instalar o Sentry.io no backend para monitorar erros e exceptions das requisições",15.7503023147583
+2,11262,História,Excluir curso/trilha,6.929350852966309
+3,11261,História,Alterar funções associadas à trilha,6.929350852966309
+4,11259,História,Publicar alterações,6.929350852966309
+5,11258,História,Visualizar página de curso já cadastrado,5.526546478271484
+6,11256,História,"Eu, como Gestor MEC, quero importar curso na plataforma por meio de arquivo csv, para incluir novo curso",4.601101398468018
+7,11255,História,"Eu, como Gestor MEC, quero exportar o template de criação de conteúdo da plataforma, para criar cursos de maneira offline",3.258409261703491
+8,11211,História,Adicionar quiz,6.8759589195251465
+9,11209,História,Editar recurso,6.929350852966309
+10,11208,História,Adicionar recurso,6.929350852966309
+11,11207,História,Reordenar e excluir tópico,10.409849166870117
+12,11206,História,Criar e configurar módulo,10.409849166870117
+13,11205,História,Alterar ícone do curso,5.749904155731201
+14,11145,História,Sobre,6.929350852966309
+15,11107,História,Contato,6.929350852966309
+16,11097,História,Refactor EAD Cursos e Trilhas,10.409849166870117
+17,11096,História,Proteção de rotas no front com base no tipo de usuário ,3.500697135925293
+18,11095,História,Dúvidas frequentes - excluir,6.929350852966309
+19,11094,História,Dúvidas frequentes - editar,6.929350852966309
+20,11093,História,Dúvidas frequentes - adicionar uma nova,6.778388023376465
+21,11092,História,Dúvidas frequentes - busca - filtro,6.929350852966309
+22,11091,História,Dúvidas frequentes - busca,6.929350852966309
+23,11090,História,Dúvidas frequentes - expandir,6.929350852966309
+24,11088,História,Instrumento normativo - excluir,6.929350852966309
+25,11087,História,Instrumento normativo - editar,6.929350852966309
+26,11086,História,Instrumento normativo - adicionar um novo,6.929350852966309
+27,11085,História,Instrumentos normativos - busca - filtro,6.929350852966309
+28,11084,História,Instrumentos normativos - Busca,6.929350852966309
+29,11083,História,Instrumentos normativos,6.929350852966309
+30,11082,História,Base de conhecimento - Busca,5.526546478271484
+31,11047,História,Base de conhecimento,5.526546478271484
+32,11045,História,Sucesso - configuração via Gov,6.749003887176514
+33,11044,História,Telefone/preenchido (via Gov),6.749003887176514
+34,11043,História,Telefone/Não preenchido (via gov),6.749003887176514
+35,11038,História,Esqueci minha senha,6.929350852966309
+36,11037,História,Senha/preenchido,6.929350852966309
+37,11036,História,Senha/não preenchido,6.929350852966309
+38,11035,História,Sucesso,6.929350852966309
+39,11034,História,Configurar/preenchido,6.929350852966309
+40,11033,História,Configurar/Não preenchido,6.929350852966309
+41,11032,História,Início,6.929350852966309
+42,10975,História,"Eu, como aluno, desejo visualizar uma interação com personagem",6.515491008758545
+43,10967,História,"Eu, como Gestor MEC, desejo adicionar uma interação com avatar no conteúdo",6.405514240264893
+44,10518,História,"Eu, como plataforma, desejo salvar a reordenação de itens de uma trilha, curso ou módulo",4.428508281707764
+45,10515,História,"Eu, como Gestor MEC, desejo salvar alterações realizadas",6.929350852966309
+46,10475,História,"Eu, como gestor MEC, desejo excluir uma ""Norma""",6.929350852966309
+47,10474,História,"Eu, como Gestor MEC, desejo editar uma ""Norma""",6.929350852966309
+48,10473,História,"Eu, como Gestor MEC, desejo incluir uma nova “Norma”",6.778388023376465
+49,10470,História,"Eu, como Gestor MEC, desejo remover os filtros aplicados as “Normas”",5.665312767028809
+50,10469,História,"Eu, como Gestor MEC, desejo aplicar um filtro as ""Normas”",6.729238033294678
+51,10468,História,"Eu, como Gestor MEC, desejo realizar uma busca de Normas",5.526546478271484
+52,10467,História,"Eu, como plataforma, desejo exibir “Normas”",6.929350852966309
+53,10466,História,"Eu, como Gestor MEC desejo acessar as Normas",6.729238033294678
+54,10464,História,"Eu, como gestor MEC, desejo excluir uma ""dúvida frequente”",6.929350852966309
+55,10463,História,"Eu, como Gestor MEC, desejo editar uma ""dúvida frequente”",6.929350852966309
+56,10462,História,"Eu, como Gestor MEC, desejo incluir uma nova ""dúvida frequente”",6.778388023376465
+57,10461,História,"Eu, como Gestor MEC, desejo remover os filtros aplicados em “Dúvidas frequentes”",5.9641876220703125
+58,10460,História,"Eu, como Gestor MEC, desejo aplicar um filtro em ""Dúvidas frequentes”",7.133865833282471
+59,10459,História,"Eu, como Gestor MEC, desejo expandir/retrair uma ""dúvida frequente”",6.929350852966309
+60,10458,História,"Eu, como Gestor MEC, desejo realizar uma busca dentro de Dúvidas Frequentes",5.526546478271484
+61,10457,História,"Eu, como plataforma, desejo exibir uma ""Dúvida Frequente”",6.929350852966309
+62,10456,História,"Eu, como Gestor MEC desejo acessar as Dúvidas Frequentes",6.729238033294678
+63,10453,História,"Eu, como Gestor MEC ou avaliador (aluno), desejo visualizar todos os resultados da busca para uma categoria",5.295739650726318
+64,10452,História,"Eu, como Gestor MEC ou avaliador (aluno), desejo realizar uma busca na Base de Conhecimento",5.020781517028809
+65,10451,História,"Eu, como Gestor MEC ou avaliador (aluno), desejo acessar a Base de Conhecimento",5.220608711242676
+66,10407,História,"Eu, como plataforma, desejo exibir a tela resumo da simulação",6.641571998596191
+67,10406,História,"Eu, como aluno, desejo continuar uma simulação",6.929350852966309
+68,10405,História,"Eu, como aluno, desejo sair de uma simulação",5.526546478271484
+69,10404,História,"Eu, como aluno, desejo realizar uma simulação novamente",6.929350852966309
+70,10403,História,"Eu, como aluno, desejo visualizar panorama de respostas (resumo)",5.526546478271484
+71,10402,História,"Eu, como aluno, desejo visualizar desfecho ideal",5.949887275695801
+72,10401,História,"Eu, como aluno, desejo visualizar desfecho ruim",6.929350852966309
+73,10400,História,"Eu, como plataforma, desejo exibir o feedback da resposta selecionada",5.520747661590576
+74,10399,História,"Eu, como plataforma, desejo analisar a resposta da simulação do usuário",5.55230712890625
+75,10398,História,"Eu, como aluno, desejo responder uma questão da simulação",6.929350852966309
+76,10397,História,"Eu, como aluno, desejo visualizar um anexo de uma cena de simulação",4.618003845214844
+77,10396,História,"Eu, como plataforma, desejo exibir uma cena de simulação",5.526546478271484
+78,10395,História,"Eu, como plataforma, desejo apresentar uma simulação",6.929350852966309
+79,10203,História,"Eu, como usuário, desejo iniciar a reprodução de um vídeo",5.3434882164001465
+80,10196,História,"Eu, como usuário, desejo iniciar a reprodução do áudio",5.55230712890625
+81,10156,História,"Eu, como Gestor MEC, desejo alterar a ordem de exibição das cenas",5.3434882164001465
+82,10155,História,"Eu, como Gestor MEC, desejo remover uma cena da simulação",6.929350852966309
+83,10154,História,"Eu, como Gestor MEC, desejo cadastrar uma nova cena",6.778388023376465
+84,10153,História,"Eu, como Gestor MEC, desejo selecionar um fundo de cena",5.526546478271484
+85,10152,História,"Eu, como gestor MEC, desejo remover um arquivo anexado à simulação",6.929350852966309
+86,10151,História,"Eu, como gestor MEC, desejo anexar um arquivo à simulação",6.929350852966309
+87,10150,História,"Eu, como gestor MEC, desejo cadastrar mais alternativas de resposta",5.526546478271484
+88,10149,História,"Eu, como Gestor MEC, desejo selecionar um avatar para as opções de resposta",5.397903919219971
+89,10148,História,"Eu, como Gestor MEC, desejo selecionar o avatar para a cena",7.8483195304870605
+90,10147,História,"Eu, como Gestor MEC, desejo cadastrar uma cena para a simulação",6.641571998596191
+91,10146,História,"Eu, como Gestor MEC, desejo cadastrar uma simulação",6.929350852966309
+92,10136,História,"Eu, como Gestor MEC, desejo associar uma função à trilha",6.929350852966309
+93,10088,História,"Eu, como aluno, desejo verificar minhas conquistas no PNLD Formação",6.800187110900879
+94,10086,História,"Eu, como Usuário, quero editar os dados de perfil para atualizar minhas informações",4.802882671356201
+95,10085,História,"Eu, como usuário, desejo redefinir senha do meu perfil",5.749904155731201
+96,10082,História,"Eu, como plataforma, desejo verificar o resultado de uma segunda tentativa de um quiz respondido pelo aluno",5.172536373138428
+97,10081,História,"Eu, como aluno, desejo realizar uma segunda tentativa de responder um quiz",5.5022478103637695
+98,10080,História,"Eu, como plataforma, desejo verificar o resultado de um quiz respondido pelo aluno",6.346139430999756
+99,10079,História,"Eu, como aluno, desejo realizar um quiz",6.8759589195251465
+100,10078,História,"Eu, como aluno, desejo interagir com uma imagem",6.515491008758545
+101,10077,História,"Eu, como aluno, desejo interagir com um link",6.919434547424316
+102,10076,História,"Eu, como plataforma, desejo bloquear os cursos ainda não disponíveis para o usuário ",6.74113655090332
+103,10074,História,"Eu, como gestor MEC, desejo inserir um recurso (vídeo, imagem, áudio)",6.929350852966309
+104,10064,História,"Eu, como usuário, desejo completar meu cadastro ao realizar meu primeiro acesso  via gov.br ou via PNLD Formação",4.929635047912598
+105,10061,História,"Eu, como plataforma, desejo validar CPF informado pelo usuário via Gov.br ou via PNLD Formação (plataforma)",5.510453224182129
+106,10054,História,"Eu, como Gestor MEC (Admin), desejo editar as informações de um usuário",5.397903919219971
+107,10052,História,"Eu, como Gestor MEC (Admin), desejo enviar ou reenviar convite para um usuário já inserido no banco de dados da plataforma",5.319873809814453
+108,10050,História,"Eu, como Gestor MEC (Admin), desejo realizar a filtragem dos Usuários para Perfil, Função e Objeto",11.528399467468262
+109,10049,História,"Eu, como Gestor MEC (Admin), desejo realizar a busca por um usuário",6.641571998596191
+110,10047,História,"Eu, como plataforma, desejo, na aba de Usuários Externos, exibir:",5.132867336273193
+111,10046,História,"Eu, como plataforma, desejo na aba de Usuários do PNLD Avaliação, exibir:",4.494183540344238
+112,10044,História,"Eu, como plataforma, desejo exibir um tópico do curso",5.749904155731201
+113,10043,História,"Eu, como aluno, desejo acessar um módulo do curso",5.749904155731201
+114,10035,História,"Eu, como plataforma, desejo verificar o tipo de acesso do usuário via Gov.br",4.685786724090576
+115,10029,História,"Eu, como gestor MEC (Admin), desejo convidar usuários do PNLD - Avaliação para acessar a plataforma",5.55230712890625
+116,10026,História,"Eu, como plataforma, desejo importar os dados dos usuários do PNLD avaliação",5.42282772064209
+117,10024,História,"Eu, como Plataforma, desejo enviar a mensagem de contato",5.3434882164001465
+118,10023,História,"Eu, como Usuário, desejo remover arquivos anexados em minha mensagem de contato",5.666090965270996
+119,10022,História,"Eu, como Usuário, desejo anexar arquivos a minha mensagem de contato",5.3434882164001465
+120,10020,História,"Eu, como Usuário, desejo acessar a página de “Contato”",5.3434882164001465
+121,10016,História,"Eu, como gestor MEC, desejo criar um quiz",6.8759589195251465
+122,10015,História,"Eu, como Gestor MEC, desejo criar conteúdo para um curso",6.929350852966309
+123,10011,História,"Eu, como Gestor MEC, desejo acessar a aba de Cursos",5.3434882164001465
+124,10010,História,"Eu, como Gestor MEC, desejo visualizar/expandir uma trilha",6.929350852966309
+125,10009,História,"Eu, como Gestor MEC, desejo criar uma trilha",6.929350852966309
+126,10008,História,"Eu, como Gestor MEC, desejo acessar a página de trilhas",5.3434882164001465
